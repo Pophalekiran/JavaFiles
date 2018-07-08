@@ -1,0 +1,4 @@
+Concurrent hash map:
+
+ConcurrentHashMap is very similar to hash map but it is thread safe. It will have lock on segments interanally instead of have a lock on whole map.
+It is very similar concept of how hashing works interanally
