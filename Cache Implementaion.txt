@@ -1,0 +1,5 @@
+How to implement the cache
+
+1) Design the one interface which will define the expiraty of the object and assigns the unique identifier
+2) Will run the background thread which will purge the object based on the expiraty (It is in static block)
+3) Will provide the method to put object and get object 
